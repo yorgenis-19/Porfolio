@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: gray;
+}
+.header{
+    z-index: 100;
+    background: white;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 0 6px 0 rgb(0, 0, 0);
+    
+}
+.nombre h1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    padding: 15px 30px 15px 20px;
+    margin-left: 100px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu{
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px;
+    font-weight: 700;
+}
+
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 130px;
+}
+
+.menu li{
+    float: left;
+    list-style: none;
+}
+
+.menu a{
+    margin-left: 20px;
+    line-height: 70px;
+    text-align: right;
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover{
+    color:blue
+}
+
+.slider{
+    z-index: 10;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    text-align: center;
+    padding-top: calc(60% - 650px);
+    color: #ffffff;
+}
+.foto-perfil{
+    float: none;
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+}
+.titulo1{
+    font-size: 60px;
+
+}
+.titulo2{
+    margin-bottom: 40px;
+}
+
+.botton a{
+    text-decoration: none;
+    padding: 10px 40px;
+    background: black;
+    color: white;
+    margin: auto;
+    border-radius: 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+table{
+    margin: 0 auto;
+}
+.titulo3{
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.conocimiento{
+    z-index: 10;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    background-image:url("https://media.istockphoto.com/id/1173282484/es/vector/conjunto-de-iconos-de-l%C3%ADnea-plana-de-desarrollo-de-software-lenguaje-de-programaci%C3%B3n.jpg?s=612x612&w=0&k=20&c=eRtdEtldiAKDZ9FchOrp1jSJ4z6Q2Q-8zZpN9qL-HLc=");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: calc(55% - 650px);
+}
+.footer{
+    text-align: center;
+    font-size: 16px;
+    background: gray;
+    height: 60px;
+    line-height: 60px;
+}
+
+.formulario{
+   height: 600px;
+   display: flex;
+   justify-content: center;
+   background: #fffefe;
+   align-items: center;
+   
+  
+}
+
+.form{
+    padding: 10px 0;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 0 6px 0 rgba(15, 13, 13, 0.8);
+    
+}
+form .grupo{
+    position: relative;
+    margin: 20px;
+}
+
+input{
+    padding: 5px 5px 5px 5px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+button{
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color: #ffffff;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    background: black;
+}
+
+
